@@ -37,7 +37,7 @@ def generate_quiz(content, difficulty, num_questions):
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
-            max_tokens= 4000
+            max_tokens= 3000
         )
         raw_response = response.choices[0].message['content'].strip()
         return json.loads(raw_response)
