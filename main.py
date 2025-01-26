@@ -7,8 +7,10 @@ import json
 import os
 from dotenv import load_dotenv
 
+
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 def extract_text_from_pdf(pdf_file):
     """Extract text from a PDF file."""
@@ -56,6 +58,16 @@ def generate_quiz(content, difficulty, num_questions):
 def main():
     st.title("Interactive Quiz Generator")
 
+    important_note = """
+    # ***Important Note***
+
+    - 📄 When uploading the PDF, it is encouraged to choose **high-quality, text-based PDFs** rather than image-based or scanned PDFs. Our current prototype is optimized for extracting and reading text from the document.
+
+    - 📚 For better results, try uploading **one chapter at a time**. This helps the AI process the content more effectively and generate higher-quality quizzes.
+
+    - 🎉 Have fun trying out our quiz generator! If you encounter any issues or have questions, feel free to **contact me** anytime.
+    """
+    st.markdown(important_note, unsafe_allow_html=True)
     # Initialize session state
     if "quiz" not in st.session_state:
         st.session_state.quiz = None
