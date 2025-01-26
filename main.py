@@ -20,29 +20,34 @@ def extract_text_from_pdf(pdf_file):
 
 def generate_quiz(content, difficulty, num_questions):
     """Generate quiz questions using OpenAI API."""
-    max_content_length = 2000  # Limit content length
+    max_content_length = 5000  # Limit content length
     content = content[:max_content_length]
 
     prompt = (
         f"Generate {num_questions} {difficulty} multiple-choice questions based on the following content:\n{content}\n"
-        f"Provide the output as a JSON object with the following structure: \n"
-        "{\"questions\":[{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}]}"
+        f"Output only a JSON object with this structure:\n"
+        f"{{\"questions\":[{{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}}]}}"
     )
 
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4o",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
-            max_tokens= 3000
+            max_tokens=3000
         )
         raw_response = response.choices[0].message['content'].strip()
-        return json.loads(raw_response)
+        # Extract JSON from response
+        json_start = raw_response.find("{")
+        json_end = raw_response.rfind("}") + 1
+        valid_json = raw_response[json_start:json_end]
+        #st.write("Raw API Response for Debugging:", raw_response)
+        return json.loads(valid_json)
     except json.JSONDecodeError:
-        st.error("Error: The API response could not be parsed as JSON.")
+        st.error("Too many questions please reduce the number of questions.")
         return None
     except Exception as e:
         st.error(f"Error generating quiz: {e}")
@@ -82,7 +87,7 @@ def main():
 
             # Persist user's answer in session state
             st.session_state.answers[f"q{idx}"] = st.radio(
-                f" Select your answer for Question {idx}", options, key=f"q{idx}", index= None
+                f"Select your answer for Question {idx}", options, key=f"q{idx}", index=None
             )
 
         if st.button("Submit All Answers"):
