@@ -82,7 +82,7 @@ def main():
 
             # Persist user's answer in session state
             st.session_state.answers[f"q{idx}"] = st.radio(
-                f"Select your answer for Question {idx}", options, key=f"q{idx}", index= None
+                f" Select your answer for Question {idx}", options, key=f"q{idx}", index= None
             )
 
         if st.button("Submit All Answers"):
