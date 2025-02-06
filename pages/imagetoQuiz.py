@@ -112,7 +112,7 @@ if st.button("Generate Quiz", key="generate_quiz_image"):
 st.subheader("Answer Quiz here!", divider='violet')
 if st.session_state.quiz_image:
     st.success("Quiz generated successfully!")
-    for idx, question in enumerate(st.session_state.quiz.get("questions", []), start=1):
+    for idx, question in enumerate(st.session_state.quiz_image.get("questions", []), start=1):
         st.write(f"**Question {idx}:** {question['question']}")
         options = question['options']
 
