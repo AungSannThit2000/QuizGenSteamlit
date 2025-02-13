@@ -28,18 +28,57 @@ def generate_quiz(content, difficulty, num_questions):
     """Generate quiz questions using OpenAI API."""
     max_content_length = 5000  # Limit content length
     content = content[:max_content_length]
+    prompt = "";
+    if difficulty.lower() == "easy":
+        st.write("easy difficulty")
+        prompt = (
+            f"Generate {num_questions} multiple-choice questions that assess lower levels of Bloom's Taxonomy: Remembering and Understanding. "
+            f"These questions should focus on factual recall, definitions, basic principles, and fundamental concepts. "
+            f"Ensure that questions are clear, direct, and test theoretical knowledge without requiring deep analysis. "
+            f"Examples of question styles include:\n"
+            f"- 'Which of the following best defines [concept]?' \n"
+            f"- 'What is the primary function of [topic]?' \n"
+            f"- 'Which statement about [subject] is correct?' \n"
+            f"Use the following content as the knowledge source:\n{content}\n"
+            f"Output only a JSON object with this structure:\n"
+            f"{{\"questions\":[{{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}}]}}"
+        )
 
-    prompt = (
-        f"Generate {num_questions} {difficulty} multiple-choice questions based on the following content:\n{content}\n"
-        f"Output only a JSON object with this structure:\n"
-        f"{{\"questions\":[{{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}}]}}"
-    )
+    elif difficulty.lower() == "medium":
+        st.write("medium difficulty")
+        prompt = (
+            f"Generate {num_questions} multiple-choice questions that assess middle levels of Bloom's Taxonomy: Applying and Analyzing. "
+            f"These questions should require students to apply concepts to real-world scenarios and analyze relationships between different ideas. "
+            f"Ensure that questions involve case studies, problem-solving, and comparative analysis. "
+            f"Examples of question styles include:\n"
+            f"- 'If [scenario] occurs, which principle of [topic] should be applied to solve it?' \n"
+            f"- 'How does [concept A] differ from [concept B] in practical use?' \n"
+            f"- 'Which of the following best explains why [phenomenon] happens?' \n"
+            f"Use the following content as the knowledge source:\n{content}\n"
+            f"Output only a JSON object with this structure:\n"
+            f"{{\"questions\":[{{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}}]}}"
+        )
+
+    elif difficulty.lower() == "hard":
+        st.write("hard difficulty")
+        prompt = (
+            f"Generate {num_questions} multiple-choice questions that assess upper levels of Bloom's Taxonomy: Evaluating and Creating. "
+            f"These questions should require critical thinking, evaluation of theories, synthesis of new ideas, and justification of arguments. "
+            f"Ensure that questions involve critical assessment, theoretical comparison, and decision-making based on incomplete or conflicting information. "
+            f"Examples of question styles include:\n"
+            f"- 'Which of the following arguments best supports [theory] in the context of [situation]?' \n"
+            f"- 'If you were to design a new [system/method], which factors would be most critical for its success?' \n"
+            f"- 'Evaluate the strengths and weaknesses of [approach A] versus [approach B] in solving [problem].' \n"
+            f"Use the following content as the knowledge source:\n{content}\n"
+            f"Output only a JSON object with this structure:\n"
+            f"{{\"questions\":[{{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}}]}}"
+        )
 
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "system", "content": "You are an AI quiz generator for university level students that can provide quizzes according to Bloom's Taxonomy."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
@@ -108,6 +147,7 @@ if st.button("Generate Quiz", key="generate_quiz_image"):
     with st.spinner("Extracting text from Image and generating quiz..."):
         st.session_state.quiz_image = generate_quiz(ocr_string, difficulty_image, num_questions_image)
         st.session_state.answers_image = {}  # Reset answers
+        
 
 st.subheader("Answer Quiz here!", divider='violet')
 if st.session_state.quiz_image:

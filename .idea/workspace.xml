@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="Added the important note">
+    <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="fixed session not found bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/imagetoQuiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/imagetoQuiz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737910146925</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added new Image to quiz page">
+      <option name="closed" value="true" />
+      <created>1738849162112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738849162112</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed session not found bug">
+      <option name="closed" value="true" />
+      <created>1738849405434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738849405434</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +157,8 @@
     <MESSAGE value="changed max token count to 3000" />
     <MESSAGE value="fix the number of questions problems with token count" />
     <MESSAGE value="Added the important note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the important note" />
+    <MESSAGE value="Added new Image to quiz page" />
+    <MESSAGE value="fixed session not found bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed session not found bug" />
   </component>
 </project>
