@@ -27,7 +27,6 @@ def generate_quiz(content, difficulty, num_questions):
 
     prompt = "";
     if difficulty.lower() == "easy":
-        st.write("easy difficulty")
         prompt = (
             f"Generate {num_questions} multiple-choice questions that assess lower levels of Bloom's Taxonomy: Remembering and Understanding. "
             f"These questions should focus on factual recall, definitions, basic principles, and fundamental concepts. "
@@ -42,7 +41,6 @@ def generate_quiz(content, difficulty, num_questions):
         )
 
     elif difficulty.lower() == "medium":
-        st.write("medium difficulty")
         prompt = (
             f"Generate {num_questions} multiple-choice questions that assess middle levels of Bloom's Taxonomy: Applying and Analyzing. "
             f"These questions should require students to apply concepts to real-world scenarios and analyze relationships between different ideas. "
@@ -57,7 +55,6 @@ def generate_quiz(content, difficulty, num_questions):
         )
 
     elif difficulty.lower() == "hard":
-        st.write("hard difficulty")
         prompt = (
             f"Generate {num_questions} multiple-choice questions that assess upper levels of Bloom's Taxonomy: Evaluating and Creating. "
             f"These questions should require critical thinking, evaluation of theories, synthesis of new ideas, and justification of arguments. "
