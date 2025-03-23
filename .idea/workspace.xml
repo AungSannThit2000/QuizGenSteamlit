@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="removed the codes used to debug.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pdftoQuiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pdftoQuiz.py" afterDir="false" />
-    </list>
+    <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="added the download quiz question log feature and feature for user to add some modification prompts." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739685865802</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added the download quiz question log feature and feature for user to add some modification prompts.">
+      <option name="closed" value="true" />
+      <created>1742734651145</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742734651145</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +193,7 @@
     <MESSAGE value="fixed session not found bug" />
     <MESSAGE value="Changed the prompt to be working better based on difficulty" />
     <MESSAGE value="removed the codes used to debug." />
-    <option name="LAST_COMMIT_MESSAGE" value="removed the codes used to debug." />
+    <MESSAGE value="added the download quiz question log feature and feature for user to add some modification prompts." />
+    <option name="LAST_COMMIT_MESSAGE" value="added the download quiz question log feature and feature for user to add some modification prompts." />
   </component>
 </project>
