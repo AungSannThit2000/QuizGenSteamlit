@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-03-23T19:45:31.311652",
+  "difficulty": "easy",
+  "num_questions": 5,
+  "prompt_used": "Generate 5 multiple-choice questions that assess lower levels of Bloom's Taxonomy: Remembering and Understanding. These questions should focus on factual recall, definitions, basic principles, and fundamental concepts. Ensure that questions are clear, direct, and test theoretical knowledge without requiring deep analysis. Examples of question styles include:\n- 'Which of the following best defines [concept]?' \n- 'What is the primary function of [topic]?' \n- 'Which statement about [subject] is correct?' \nUse the following content as the knowledge source:\nLesson 1\nMeasuring a Nation\u2019s Income\nChapter 10BBA 1124 \nMacroeconomicsTENTH EDITION\nInteractive PowerPoint Slides by: \nV.  Andreea  Chiritescu\nEastern Illinois University\nChapter  \n10\nMankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, or posted to a publicly \naccessible website, in whole or in part. 2Measuring a \nNation\u2019s Income1.What is Gross Domestic Product (GDP)? \n2.How is GDP related to a nation\u2019s total income and \nspending? \n3.What are the components of GDP?  \n4.How is GDP corrected for inflation?\n5.Does GDP measure society\u2019s well -being?\n3IN THIS CHAPTER\nMankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.Economics \n\u2022Microeconomics\n\u2013Study of how households and firms\n\u2022Make decisions\n\u2022Interact in markets\n\u2022Macroeconomics\n\u2013Study of economy -wide phenomena\n\u2022Including inflation, unemployment, and economic growth\n4Mankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.Income and Expenditure\n\u2022Gross Domestic Product ( GDP ) \n\u2013Measures total income of everyone in the economy.  \n\u2013Also measures total expenditure on the economy\u2019s output \nof goods and services.\n\u2022Income equals expenditure \n\u2013For the economy as a whole\n\u2013Because every dollar a buyer spends \nis a dollar of income for the seller.\n5Mankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.Active Learning 1: Income Equals Expenditure\n\u2022Nalah  pays James $50 to mow her lawn. \nA.What happens with total expenditure? \nB.What happens with total income?\n\u2022James is a seller of a service and Nalah  is a buyer: James \nearns $50, and Nalah  spends $50. \nA.Total expenditure rises by $50.\nB.Total income rises by $50.\nMankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.The Circular -Flow\n\u2022The Circular -Flow Diagram\n\u2013Simple depiction of the macroeconomy\n\u2013Illustrates GDP  as spending, revenue, \nfactor payments, and income\n\u2022Preliminaries:\n\u2013Factors of production: inputs like labor, land, capital, and natural \nresources.  \n\u2013Factor payments: payments to the factors of production (e.g., wages, \nrent). \n7Mankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.The Circular -Flow Diagram \u2013 1 \n8Households :\n\u25aaown the factors of production, sell or \nrent them to firms for income\n\u25aabuy and consume goods & services\nHouseholds\n Firms\nFirms :\n\u25aaBuy or hire factors of production, use them \nto produce goods and services\n\u25aasell goods & services\nMankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.9\nMarkets for \nFactors of \nProduction\nHouseholds\n Firms\nIncome (=GDP) Wages, rent, and profit (=GDP)Factors of \nproductionLabor, land, \ncapitalSpending (=GDP)\nGoods and \nservices \nboughtGoods and \nservices soldRevenue (=GDP)\nMarkets for \nGoods & \nServices.The Circular -Flow Diagram \u2013 2\nMankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.What This Diagram Omits\n\u2022The government\n\u2013Collects taxes, buys goods and services\n\u2022The financial system\n\u2013Matches savers\u2019 supply of funds with \nborrowers\u2019 demand for loans\n\u2022The foreign sector\n\u2013Trades goods and services, financial assets, and currencies with the \ncountry\u2019s residents\n10Mankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.Gross Domestic Product ( GDP ) Is\u2026 \u2013 1 \n\u2022\u2026the market value of all final goods & services produced \nwithin a country in a given  period.\n11\u2022Goods are valued at their market prices , so:\n\u2013All goods measured in the same units \n(e.g., dollars in the U.S.)\n\u2013Things that don\u2019t have a market value are excluded, e.g., housework \nyou do for yourself.\nMankiw, Principles of Macroeconomics , 10th Edition. \u00a9 2024 Cengage. All Rights Reserved. May not be scanned, copied or duplicated, \nor posted to a publicly accessible website, in whole or in part.Gross Domestic Product ( GDP ) Is \u2026 \u2013 2 \n\u2022\u2026the market value of all final goods & services produced within a \ncountry in a given  period.\n12\u2013GDP  includes all items produced in the economy and sold legally \n\nThe user has provided additional context to guide question generation. Please consider the following ideas without changing the goal or tone of the original prompt:\n\"\"\"\nPlease add question type of selecting 4 options like :\nA. True\nB. False\nC. Both True and False\nD. None of them\n\"\"\"\n\nOutput only a JSON object with this structure:\n{\"questions\":[{\"question\":\"<question_text>\", \"options\":[\"option1\",\"option2\",\"option3\",\"option4\"], \"answer\":\"correct_option\"}]}",
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which of the following best defines Gross Domestic Product (GDP)?",
+        "options": [
+          "The market value of all intermediate goods and services produced within a country in a given period.",
+          "The total income of everyone in the economy.",
+          "The market value of all final goods and services produced within a country in a given period.",
+          "The total expenditure on the economy\u2019s output of goods and services."
+        ],
+        "answer": "The market value of all final goods and services produced within a country in a given period."
+      },
+      {
+        "question": "How is GDP related to a nation\u2019s total income and spending?",
+        "options": [
+          "GDP is only related to total spending.",
+          "GDP measures total income but not total expenditure.",
+          "GDP measures neither total income nor total expenditure.",
+          "GDP measures both total income and total expenditure."
+        ],
+        "answer": "GDP measures both total income and total expenditure."
+      },
+      {
+        "question": "Which of the following are components of GDP?",
+        "options": [
+          "Consumption, Investment, Government Purchases, and Net Exports.",
+          "Consumption, Investment, Government Purchases, and Net Imports.",
+          "Consumption, Investment, Government Revenue, and Net Exports.",
+          "Consumption, Savings, Government Purchases, and Net Exports."
+        ],
+        "answer": "Consumption, Investment, Government Purchases, and Net Exports."
+      },
+      {
+        "question": "Which statement about the Circular-Flow Diagram is correct?",
+        "options": [
+          "It illustrates GDP as the sum of imports and exports.",
+          "It depicts the government as the sole owner of the factors of production.",
+          "It shows GDP as spending, revenue, factor payments, and income.",
+          "It excludes firms from the economic model."
+        ],
+        "answer": "It shows GDP as spending, revenue, factor payments, and income."
+      },
+      {
+        "question": "Does GDP measure society\u2019s well-being?",
+        "options": [
+          "Yes, GDP directly measures well-being.",
+          "No, GDP does not consider factors like leisure and environmental quality.",
+          "Yes, GDP includes all aspects of societal welfare.",
+          "No, GDP exclusively measures happiness levels."
+        ],
+        "answer": "No, GDP does not consider factors like leisure and environmental quality."
+      }
+    ]
+  }
+}
