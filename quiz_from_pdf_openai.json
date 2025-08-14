@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "What is the primary purpose of encryption in data security?",
+      "options": [
+        "To ensure data integrity",
+        "To convert data into an unreadable format",
+        "To verify user identities",
+        "To manage digital certificates"
+      ],
+      "answer": "To convert data into an unreadable format"
+    },
+    {
+      "question": "Which of the following best describes asymmetric encryption?",
+      "options": [
+        "Uses a single key for both encryption and decryption",
+        "Employs a pair of keys: public for encryption and private for decryption",
+        "Is a method for hashing data",
+        "Is primarily used for data compression"
+      ],
+      "answer": "Employs a pair of keys: public for encryption and private for decryption"
+    },
+    {
+      "question": "How does a digital signature ensure non-repudiation?",
+      "options": [
+        "By encrypting the message with a public key",
+        "By binding the sender to the signed content",
+        "By hashing the original message",
+        "By using symmetric encryption"
+      ],
+      "answer": "By binding the sender to the signed content"
+    },
+    {
+      "question": "What is the role of Public Key Infrastructure (PKI)?",
+      "options": [
+        "To provide secure storage for passwords",
+        "To manage digital certificates and public-key encryption",
+        "To enforce access control policies",
+        "To perform user authentication only"
+      ],
+      "answer": "To manage digital certificates and public-key encryption"
+    },
+    {
+      "question": "Which of the following is NOT a core component of Identity and Access Management (IAM)?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "User Management",
+        "Data Encryption"
+      ],
+      "answer": "Data Encryption"
+    }
+  ]
+}
