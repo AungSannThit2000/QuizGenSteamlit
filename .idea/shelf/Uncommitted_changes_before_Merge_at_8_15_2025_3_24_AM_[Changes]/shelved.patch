@@ -1,0 +1,108 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8cf4bf6e-f5df-4cdf-821e-53a8b77560d9\" name=\"Changes\" comment=\"added the download quiz question log feature and feature for user to add some modification prompts.\">\r\n      <change beforePath=\"$PROJECT_DIR$/pages/pdftoQuiz.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/pdftoQuiz.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;AungSannThit2000&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/AungSannThit2000/QuizGenSteamlit.git&quot;,\r\n    &quot;accountId&quot;: &quot;303091a4-a249-41b9-a24e-168d4657e046&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2sAGm1g7iKjCV3LwQABe7kgUGtM\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8cf4bf6e-f5df-4cdf-821e-53a8b77560d9\" name=\"Changes\" comment=\"\" />\r\n      <created>1737891120233</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1737891120233</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Updated codes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737893300547</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737893300547</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Updated the radio buttons not to preselect\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737894352338</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737894352338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Updated the radio buttons not to preselect\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737894580438</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737894580438</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"changed max token count to 10000\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737894709655</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737894709655</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"changed max token count to 10000\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737894772604</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737894772604</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"changed max token count to 3000\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737894830354</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737894830354</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"fix the number of questions problems with token count\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737896022374</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737896022374</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Added the important note\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737910146925</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737910146925</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Added new Image to quiz page\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1738849162112</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1738849162112</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"fixed session not found bug\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1738849405434</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1738849405434</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Changed the prompt to be working better based on difficulty\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1739466849554</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739466849554</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"removed the codes used to debug.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1739685865802</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739685865802</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"added the download quiz question log feature and feature for user to add some modification prompts.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742734651145</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742734651145</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"added the download quiz question log feature and feature for user to add some modification prompts.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742734710941</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742734710941</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Updated codes\" />\r\n    <MESSAGE value=\"Updated the radio buttons not to preselect\" />\r\n    <MESSAGE value=\"changed max token count to 10000\" />\r\n    <MESSAGE value=\"changed max token count to 3000\" />\r\n    <MESSAGE value=\"fix the number of questions problems with token count\" />\r\n    <MESSAGE value=\"Added the important note\" />\r\n    <MESSAGE value=\"Added new Image to quiz page\" />\r\n    <MESSAGE value=\"fixed session not found bug\" />\r\n    <MESSAGE value=\"Changed the prompt to be working better based on difficulty\" />\r\n    <MESSAGE value=\"removed the codes used to debug.\" />\r\n    <MESSAGE value=\"added the download quiz question log feature and feature for user to add some modification prompts.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added the download quiz question log feature and feature for user to add some modification prompts.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 48d1b8b89d4062148e81f37160e92ef9a16ef058)
++++ b/.idea/workspace.xml	(date 1755202983257)
+@@ -5,6 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="added the download quiz question log feature and feature for user to add some modification prompts.">
++      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pages/quiz_from_image_openai.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/QuizGenSteamlit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuizGenSteamlit.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/pages/pdftoQuiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pdftoQuiz.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -20,6 +24,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -28,32 +37,42 @@
+     &quot;assignee&quot;: &quot;AungSannThit2000&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/AungSannThit2000/QuizGenSteamlit.git&quot;,
+-    &quot;accountId&quot;: &quot;303091a4-a249-41b9-a24e-168d4657e046&quot;
+-  }
+-}</component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/AungSannThit2000/QuizGenSteamlit.git",
++    "accountId": "a3c9faf3-f7fb-4ffe-98df-3d0f8cbfa09e"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 7
+ }</component>
+   <component name="ProjectId" id="2sAGm1g7iKjCV3LwQABe7kgUGtM" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python.main.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "directImageFeed",
++    "ignore.virus.scanning.warn.message": "true",
++    "junie.onboarding.icon.badge.shown": "true",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
++        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
++        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -65,6 +84,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1737891120233</updated>
++      <workItem from="1755196943523" duration="5431000" />
+     </task>
+     <task id="LOCAL-00001" summary="Updated codes">
+       <option name="closed" value="true" />
+@@ -180,6 +200,9 @@
+     </task>
+     <option name="localTasksCounter" value="15" />
+     <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
