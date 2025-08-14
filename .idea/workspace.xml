@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="commit after merge" />
+    <list default="true" id="8cf4bf6e-f5df-4cdf-821e-53a8b77560d9" name="Changes" comment="updated requirements.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755203178769</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated requirements.txt">
+      <option name="closed" value="true" />
+      <created>1755203497871</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755203497871</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +241,7 @@
     <MESSAGE value="removed the codes used to debug." />
     <MESSAGE value="added the download quiz question log feature and feature for user to add some modification prompts." />
     <MESSAGE value="commit after merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after merge" />
+    <MESSAGE value="updated requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt" />
   </component>
 </project>
