@@ -62,19 +62,65 @@ def _to_data_uri(img: ImageInput) -> str:
     else:
         raise TypeError("image must be a path (str) or bytes-like object")
 
-def _prompt_for(difficulty: str, n: int) -> str:
-    base = (
-        f"Generate {n} multiple-choice questions using ONLY the content of the image(s). "
-        f"Return STRICT JSON with schema: "
-        f'{{"questions":[{{"question":"...", "options":["...","...","...","..."], "answer":"..."}}]}}. '
-        f"Exactly 4 options per question and the answer must be one of them. "
+def prompt_for(difficulty: str, n: int) -> str:
+    d = (difficulty or "easy").lower()
+
+    shared_rules = (
+        "Format rules:\n"
+        "1) Return STRICT JSON only (no markdown, backticks, or commentary).\n"
+        "2) JSON schema: {\"questions\":[{\"question\":\"...\",\"options\":[\"...\",\"...\",\"...\",\"...\"],\"answer\":\"...\"}]}.\n"
+        "3) Exactly 4 options per item; plausible distractors; avoid 'All of the above/None of the above'.\n"
+        "4) The answer string must exactly match one of the options.\n"
+        "5) Base all content ONLY on the provided PDF text.\n"
+        "6) Clear, single-focus items; avoid ambiguity and double-negatives.\n"
     )
-    difficulty = (difficulty or "easy").lower()
-    if difficulty == "easy":
-        return base + "Target Remember/Understand levels of Bloom's."
-    if difficulty == "medium":
-        return base + "Target Apply/Analyze levels of Bloom's."
-    return base + "Target Evaluate/Create levels of Bloom's."
+
+    if d == "easy":
+        level_rules = (
+            f"Task: Generate {n} MCQs at **Remembering/Understanding** levels of Bloom's.\n"
+            "- Focus: facts, definitions, key terms, purposes, simple interpretations.\n"
+            "- Cognitive ops: recognize, recall, define, identify, classify, summarize.\n"
+            "Suggested question-stem patterns:\n"
+            "• Which of the following best defines <term>?\n"
+            "• According to the text, what is the purpose of <X>?\n"
+            "• <Concept> is primarily associated with which of the following?\n"
+            "• Which statement is TRUE about <topic>?\n"
+            "• Identify the correct sequence/element/label for <diagram/text excerpt>.\n"
+        )
+    elif d == "medium":
+        level_rules = (
+            f"Task: Generate {n} MCQs at **Applying/Analyzing** levels of Bloom's.\n"
+            "- Focus: applying procedures, interpreting data/figures, comparing/contrasting, categorizing, inference.\n"
+            "- Cognitive ops: apply, compute, infer, organize, differentiate, compare.\n"
+            "Suggested question-stem patterns:\n"
+            "• Given the scenario, which approach should be applied first?\n"
+            "• Which inference can be drawn from the data/example provided in the text?\n"
+            "• Which option best completes the classification of <items>?\n"
+            "• Compared with <A>, <B> primarily differs in which aspect?\n"
+            "• What is the most appropriate calculation/step to solve <problem> using the method described?\n"
+        )
+    else:
+        level_rules = (
+            f"Task: Generate {n} MCQs at **Evaluating/Creating** levels of Bloom's with a strong **case-study** focus.\n"
+            "- For at least HALF of the questions, include a **2–3 sentence mini case** derived from the text (synthesize details; do not invent facts beyond it).\n"
+            "- Focus: critique decisions, weigh trade-offs, choose optimal designs/strategies, predict outcomes, justify selections.\n"
+            "- Cognitive ops: evaluate, prioritize, justify, design, propose, adapt.\n"
+            "Suggested question-stem patterns:\n"
+            "• CASE: <2–3 sentence scenario>. Which decision best addresses the constraints described?\n"
+            "• Based on the criteria outlined in the text, which option is the most defensible choice and why?\n"
+            "• If applying the framework to <new but text-consistent context>, which modification is most appropriate?\n"
+            "• Which risk/assumption most critically impacts the outcome in the scenario described?\n"
+            "• Which design/plan best meets the specified objectives and constraints?\n"
+        )
+
+
+    return (
+        level_rules
+        + "\n"
+        + shared_rules
+        + "\nOutput ONLY the JSON object."
+    )
+
 
 def _safe_parse_json(s: str) -> Dict[str, Any]:
     s = s.strip()
@@ -98,7 +144,7 @@ def generate_quiz_from_images(
     client = get_client()
     num_questions = max(1, min(int(num_questions), 50))
 
-    content_blocks = [{"type": "text", "text": _prompt_for(difficulty, num_questions)}]
+    content_blocks = [{"type": "text", "text": prompt_for(difficulty, num_questions)}]
     for img in images:
         content_blocks.append({"type": "image_url", "image_url": {"url": _to_data_uri(img)}})
 
